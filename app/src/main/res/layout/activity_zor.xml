@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <Button
+                android:id="@+id/suffle"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="shuffle"
+                android:text="BAŞLA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/white"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:textSize="16dp"
+
+                android:textColor="@color/design_default_color_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Renkleri doğru eşleştir ve kutuları bitir"
+                android:layout_marginLeft="75dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bir"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/iki"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/uc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/dort"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/alti"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yedi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sekiz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/dokuz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/on"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/onbir"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/oniki"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/onuc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ondort"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/onbes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/onalti"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/onyedi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/onsekiz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ondokuz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmibir"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmiiki"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmiuc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmidort"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmibes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmialti"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmiyedi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmisekiz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yirmidokuz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/otuz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text=""
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table_background"
+    tools:context=".Anasayfa">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kolay"
+        android:layout_width="204dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/buttonkolay"
+        android:onClick="kolay"
+        android:text="kolay"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/orta"
+        android:layout_width="204dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/kolay"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/buttonorta"
+        android:onClick="orta"
+        android:text="orta"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/zor"
+        android:layout_width="204dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/orta"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/buttonzor"
+        android:onClick="zor"
+        android:text="zor"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="98dp"
+        android:text="SEVİYE SEÇ"
+        android:textColor="#813E3E"
+        android:textSize="35sp"
+        android:textStyle="normal|bold|italic" />
+</RelativeLayout>
